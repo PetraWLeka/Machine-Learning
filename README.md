@@ -3,3 +3,7 @@ Proyek ini bertujuan untuk mengembangkan sistem yang dapat mengklasifikasikan te
 Pendekatan SVM dan regresi logistik memanfaatkan fitur Mel Spectrogram dan ZCR untuk mengidentifikasi pola dalam sinyal audio. Melalui SVM, kami mencoba membedakan antara teriakan dan non-teriakan dengan menemukan batas keputusan yang optimal di antara fitur-fitur ini. Sementara regresi logistik memodelkan kemungkinan teriakan berdasarkan fitur-fitur tersebut.
 
 Selain itu, kami menggunakan pendekatan yang lebih maju, yaitu CNN, untuk menganalisis gambar Mel Spectrogram. Dengan CNN, kami dapat secara otomatis mengekstrak fitur-fitur penting dari gambar-gambar ini dan melakukan klasifikasi dengan tingkat akurasi yang tinggi.
+
+
+Sumber data:
+https://www.kaggle.com/datasets/afisarsy/raw-audio-of-accident-and-crime-detection
