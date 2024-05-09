@@ -7,3 +7,4 @@ Selain itu, kami menggunakan pendekatan yang lebih maju, yaitu CNN, untuk mengan
 Collab dengan Christianse
 Sumber data:
 https://www.kaggle.com/datasets/afisarsy/raw-audio-of-accident-and-crime-detection
+tes dari petra hehe
