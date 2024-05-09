@@ -1,0 +1,1 @@
+print("are you human because have brain or you have brain because human")
