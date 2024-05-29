@@ -4,8 +4,8 @@ Pendekatan SVM dan regresi logistik memanfaatkan fitur Mel Spectrogram dan ZCR u
 
 Selain itu, kami menggunakan pendekatan yang lebih maju, yaitu CNN, untuk menganalisis gambar Mel Spectrogram. Dengan CNN, kami dapat secara otomatis mengekstrak fitur-fitur penting dari gambar-gambar ini dan melakukan klasifikasi dengan tingkat akurasi yang tinggi.
 
-Collab dengan Christianse
+
 Sumber data:
 https://www.kaggle.com/datasets/afisarsy/raw-audio-of-accident-and-crime-detection
-tes dari petra hehe
-tes matt
+
+File akhir bernama pengenal_teriak.ipynb. Experimental code berisi kode pada tahap pengembangan. Kode generate_noise_in_data.ipynb untuk menambahkan noise pada data teriak sehingga lebih mirip dengan kasus dunia nyata. 
