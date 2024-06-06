@@ -1,11 +1,17 @@
-Proyek ini bertujuan untuk mengembangkan sistem yang dapat mengklasifikasikan teriakan dan non-teriakan dengan akurasi tinggi, memanfaatkan berbagai metode pembelajaran mesin. Dalam proyek ini, kami menggunakan tiga pendekatan utama: **Support Vector Machine (SVM), Regresi Logistik, dan Convolutional Neural Network (CNN)**. SVM dan regresi logistik digunakan untuk menganalisis Mel Spectrogram dan Zero Crossing Rate (ZCR) dari sinyal audio, sementara CNN digunakan untuk menganalisis gambar Mel Spectrogram.
+# Project Overview
 
-Pendekatan SVM dan regresi logistik memanfaatkan fitur Mel Spectrogram dan ZCR untuk mengidentifikasi pola dalam sinyal audio. Melalui SVM, kami mencoba membedakan antara teriakan dan non-teriakan dengan menemukan batas keputusan yang optimal di antara fitur-fitur ini. Sementara regresi logistik memodelkan kemungkinan teriakan berdasarkan fitur-fitur tersebut.
+This project aims to develop a high-accuracy classification system for distinguishing between screams and non-screams using various machine learning methods. In this project, we employ three main approaches: **Support Vector Machine (SVM), Logistic Regression, and Convolutional Neural Network (CNN)**. SVM and logistic regression are used to analyze Mel Spectrogram and Zero Crossing Rate (ZCR) features from audio signals, while CNN is used to analyze Mel Spectrogram images.
 
-Selain itu, kami menggunakan pendekatan yang lebih maju, yaitu CNN, untuk menganalisis gambar Mel Spectrogram. Dengan CNN, kami dapat secara otomatis mengekstrak fitur-fitur penting dari gambar-gambar ini dan melakukan klasifikasi dengan tingkat akurasi yang tinggi.
+The SVM and logistic regression approaches leverage Mel Spectrogram and ZCR features to identify patterns in the audio signals. Through SVM, we attempt to distinguish between screams and non-screams by finding the optimal decision boundary among these features. Logistic regression, on the other hand, models the probability of a scream based on these features.
 
+Additionally, we use a more advanced approach, CNN, to analyze Mel Spectrogram images. With CNN, we can automatically extract important features from these images and perform classification with a high degree of accuracy.
 
-Sumber data:
-https://www.kaggle.com/datasets/afisarsy/raw-audio-of-accident-and-crime-detection
+## Data Source
 
-File akhir bernama pengenal_teriak.ipynb. Experimental code berisi kode pada tahap pengembangan. Kode generate_noise_in_data.ipynb untuk menambahkan noise pada data teriak sehingga lebih mirip dengan kasus dunia nyata. 
+The data used in this project can be found at: [Kaggle - Raw Audio of Accident and Crime Detection](https://www.kaggle.com/datasets/afisarsy/raw-audio-of-accident-and-crime-detection).
+
+## Project Files
+
+- **pengenal_teriak.ipynb**: The final notebook containing the classification model.
+- **Experimental code**: Contains code in the development stage.
+- **generate_noise_in_data.ipynb**: Used to add noise to scream data to make it more representative of real-world scenarios.
